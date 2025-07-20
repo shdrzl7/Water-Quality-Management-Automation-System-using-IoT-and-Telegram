@@ -39,7 +39,6 @@ This project is an **automated water quality monitoring and control system** des
 - 🛠️ Low-cost hardware setup (~RM240)
 
 ## 🧠 System Overview
-
 | Sensor       | Condition                | Action                                  |
 |--------------|--------------------------|-----------------------------------------|
 | **pH**       | < 7.5                    | Turn ON alkaline pump                   |
@@ -47,6 +46,9 @@ This project is an **automated water quality monitoring and control system** des
 | **Turbidity**| > 25 NTU                | Turn ON both input and output pumps     |
 | **Temp**     | < 26°C                  | Turn ON cooling fan                     |
 |              | > 30°C                  | Turn ON heater  
+<img src="Images/System Overview Design.jpg" alt="System Overview Design" width="300"/>
+All the parameters sensors which are pH level sensor (5), temperature sensor (6) and turbidity sensor (7) are placed inside the main water aquarium tank. This water tank functions as a simulated model or replica of a aquaculture pond. Two of the actuators, which are cooling fan (9) and heater are placed inside the tank. An automatic feeder (8) is placed on top of the tank. Other actuator components such as water pumps 3, 4 and 10 are placed outside the tank. There are three other tanks outside the main tank which are the acidic tank (1), alkaline tank (2) and external water tank (12). The arrow in the figure illustrates the water flow.
+
 
 ## 🖥️ Telegram Integration
 - Telegram bot created via **BotFather**
