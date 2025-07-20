@@ -1,6 +1,36 @@
 # Water-Quality-Management-Automation-System-using-IoT-and-Telegram
 This project is an **automated water quality monitoring and control system** designed to maintain optimal pond conditions using **Arduino**, **ESP32**, and a suite of sensors. It monitors parameters such as **pH**, **temperature**, **turbidity**, and automates tasks like water exchange, heating, and notifications via **Telegram Bot**.
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>Front View</strong>
+      <img src="Images/Front.jpg" alt="Front View" width="200"/>
+    </td>
+    <td align="center">
+      <strong>Back View</strong>
+      <img src="Images/Back.jpg" alt="Back View" width="200"/>
+    </td>
+    <td align="center">
+      <strong>Right Side View</strong>
+      <img src="Images/Right.jpg" alt="Right View" width="200"/>
+    </td>
+    <td align="center">
+      <strong>Left Side View</strong>
+      <img src="Images/Left.jpg" alt="Left View" width="200"/>
+    </td>
+    <td align="center">
+      <strong>Top View</strong>
+      <img src="Images/Top.jpg" alt="Top View" width="200"/>
+    </td>
+    <td align="center">
+      <strong>Inside View</strong>
+      <img src="Images/Inside.jpg" alt="Inside View" width="200"/>
+    </td>
+  </tr>
+</table>
+
+
 ## 🔧 Features
 - 📡 Real-time data monitoring: pH, temperature, turbidity
 - 🔄 Automated actions based on sensor thresholds
